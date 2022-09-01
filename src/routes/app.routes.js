@@ -1,15 +1,33 @@
 import React from "react";
-import {NavigationContainer} from '@react-navigation/native'
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+import Home from "../pages/Home";
 import Cadastro from '../pages/Cadastro';
+import Bike from "../pages/Bikes";
 
 const AppStack = createNativeStackNavigator();
 
-function AppRoutes(){
-    return(
+function AppRoutes() {
+    return (
         <AppStack.Navigator>
-            <AuthStack.Screen name="Cadastro" component={Cadastro}/>
+
+            <AppStack.Screen 
+            name="Home" component={Home}
+            options={{headerShown:false}}
+             />
+
+            <AppStack.Screen 
+            name="Cadastro" component={Cadastro}
+            options={{headerShown:false}}
+            
+             />
+             <AppStack.Screen 
+            name="Bike" component={Bike}
+            options={{headerShown:false}}
+             />
+
         </AppStack.Navigator>
     )
 }
+
+export default AppRoutes;

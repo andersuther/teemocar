@@ -12,16 +12,15 @@ align-items: center;
 margin-bottom: 80px;
 `;
 
-export const Bode = styled.Image`
+export const Imagem = styled.Image`
 justify-content: center;
 
 `;
 
 export const Textohome = styled.Text`
-justify-content: center;
 text-align:center;
 color: black;
-font-weight: bold;
+
 `;
 
 export const ViewBotao= styled.View`
