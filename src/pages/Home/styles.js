@@ -42,3 +42,10 @@ padding: 2%;
 border-radius: 9px;
 margin: 10px;
 `;
+
+export const Botao3 = styled.TouchableOpacity`
+background-color: red;
+padding: 2%;
+border-radius: 9px;
+margin: 10px;
+`;

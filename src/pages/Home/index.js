@@ -3,7 +3,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native'
 
-import { Container, Textohome, Botao, Botao2, ViewHome, Imagem, ViewBotao } from './styles';
+import { Container, Textohome, Botao, Botao2,Botao3, ViewHome, Imagem, ViewBotao } from './styles';
 
 
 export default function Home() {
@@ -32,6 +32,11 @@ export default function Home() {
                 <Botao2 onPress={() => navigation.navigate('Bike')}>
                     <Text style={{ textAlign: 'center', color: 'white' }}>Vizualizar bicicletas</Text>
                 </Botao2>
+                <Botao3 onPress={() => navigation.navigate('Sobre')}>
+                    <Text style={{ textAlign: 'center', color: 'white' }}>Sobre Nós</Text>
+                </Botao3>
+
+
             </ViewBotao>
 
 

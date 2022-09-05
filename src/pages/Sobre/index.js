@@ -25,7 +25,7 @@ export default function Bike() {
       </ViewBotao>
 
     <Vieww>
-      <Text>Bikes</Text>
+      <Text>Sobre</Text>
     </Vieww>
     </Container>
   );
