@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { ScrollView, Text, StyleSheet } from 'react-native';
+import { ScrollView, Text, StyleSheet, View } from 'react-native';
 import { Container, Botao, ViewBotao, TextoBotao, ViewInput, Input, BotaoHome, ViewBotaoHome } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
+import BT from '../../components/BotaoHome'
 
 
 import { useNavigation } from '@react-navigation/native';
@@ -36,14 +37,15 @@ function handleAsync(){
             <TextoBotao>Cadastre</TextoBotao>
 
           </Botao>
-          <BotaoHome onPress={() => navigation.navigate('Home')}>
+          {/* <BotaoHome onPress={() => navigation.navigate('Home')}>
 
             <Icon
               name='home'
               size={16}
               color={'black'} />
 
-          </BotaoHome>
+          </BotaoHome> */}
+          <BT/>
         </ViewBotao>
 
         <ViewInput>

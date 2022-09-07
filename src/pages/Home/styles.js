@@ -4,6 +4,7 @@ export const Container= styled.View`
 flex: 1;
 background-color: #D8BFD8;
 justify-content: center;
+height: 100%;
 `;
 
 export const ViewHome= styled.View`
@@ -14,18 +15,17 @@ margin-bottom: 80px;
 
 export const Imagem = styled.Image`
 justify-content: center;
-
 `;
 
 export const Textohome = styled.Text`
 text-align:center;
 color: black;
-
 `;
 
 export const ViewBotao= styled.View`
 justify-content: center;
-
+height: 35%;
+width: 100%;
 `;
 
 
@@ -48,4 +48,12 @@ background-color: red;
 padding: 2%;
 border-radius: 9px;
 margin: 10px;
+`;
+
+export const Botao4 = styled.TouchableOpacity`
+background-color: green;
+padding: 2%;
+border-radius: 80px;
+margin: 10px;
+width: 20%;
 `;

@@ -5,19 +5,22 @@ import Icon from 'react-native-vector-icons/Feather';
 
 import { useNavigation } from '@react-navigation/native';
 
-const navigation = useNavigation();
 
-export default function BotaoHome2(){
 
+export default function BotaoHome2  () {
+  
+  const navigation = useNavigation();
+
+  return(
     <ViewBotao>
           <BotaoHome onPress={() => navigation.navigate('Home')}>
-
             <Icon
               name='home'
               size={16}
               color={'black'} />
-
           </BotaoHome>
     </ViewBotao>
+  )
 
 }
+

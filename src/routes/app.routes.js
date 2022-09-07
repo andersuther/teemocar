@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Cadastro from '../pages/Cadastro';
 import Bike from "../pages/Bikes";
 import Sobre from "../pages/Sobre";
+import Clima from "../pages/Clima";
 
 const AppStack = createNativeStackNavigator();
 
@@ -29,6 +30,10 @@ function AppRoutes() {
 
             <AppStack.Screen
                 name="Sobre" component={Sobre}
+                options={{ headerShown: false }}
+            />
+            <AppStack.Screen
+                name="Clima" component={Clima}
                 options={{ headerShown: false }}
             />
 

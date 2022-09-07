@@ -1,6 +1,6 @@
 import React from 'react';
-import {  Text } from 'react-native';
-import { Container, BotaoHome, ViewBotao,Vieww } from './styles';
+import { Text } from 'react-native';
+import { Container, BotaoHome, ViewBotao, Vieww } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
 
 import { useNavigation } from '@react-navigation/native';
@@ -24,9 +24,9 @@ export default function Bike() {
 
       </ViewBotao>
 
-    <Vieww>
-      <Text>Sobre</Text>
-    </Vieww>
+      <Vieww>
+        <Text>Clima</Text>
+      </Vieww>
     </Container>
   );
 }
